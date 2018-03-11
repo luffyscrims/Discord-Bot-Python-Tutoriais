@@ -1,35 +1,24 @@
+#importaçoes Basicas
 import discord
 from discord.ext import commands
+#outras importaçoes
 import asyncio
 import re
 import os
 import time
 import random
 
-
+#Variavél para poder usar @client
 client = discord.Client()
-COR = 0x9910CD
-CORmeme = 0x00FF00
 
+#montra no terminal se deu certo no loggin do bot,e muda os status do bot no discord
 @client.event
 async def on_ready():
-    print("SuperBot Foi Ligado corretamente")
-    return await client.change_presence(game=discord.Game(name='No Servidor Amy'))
+    print("Bot logado")
+    return await client.change_presence(game=discord.Game(name='Status aqui'))
 
 
-
-
-#@client.command(aliases=['p'])
-#async def ping():
-#    pingtime = time.time()
-#    e = discord.Embed(title = 'Ok espere', color = 0x1abc9c)
-#    pingus = await client.say(embed=e)
-#    ping = time.time() - pingtime
-#    ping1 = discord.Embed(title = 'Pong!', description = ':ping_pong: Ping time - `%.01f seconds`' % ping, colour = 0x1abc9c)
-#    await client.edit_message(pingus, embed=ping1)
-
-
-
+#parte dos comandos
 @client.event
 async def on_message(message):
     if message.content.lower().startswith('!myinfo'):
