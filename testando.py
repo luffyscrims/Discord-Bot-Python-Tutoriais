@@ -72,4 +72,4 @@ async def on_message(message):
         else:
             await client.send_message(message.channel, '**Você não tem permissão para usar esse comando!**  :rage:')
 
-client.run('NDIyNTA3Mzc3ODU4OTY5NjIx.DYcyNA.TEDmAV8Fwp_lHjoSNrtdqTLphUY')
+client.run('token aki')
