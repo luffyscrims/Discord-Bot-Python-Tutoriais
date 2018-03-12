@@ -15,7 +15,7 @@ client = discord.Client()
 @client.event
 async def on_ready():
     print("Bot logado")
-    return await client.change_presence(game=discord.Game(name='Status aqui'))
+     await client.change_presence(game=discord.Game(name="League of legends", url="https://www.twitch.tv/vagner8k", type=1))
 
 
 #parte dos comandos
