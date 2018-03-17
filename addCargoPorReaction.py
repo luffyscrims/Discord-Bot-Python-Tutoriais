@@ -87,4 +87,4 @@ async def on_reaction_remove(reaction, user):
      await client.remove_roles(user,role)
 
 
-client.run('NDIxMzM0MjY0NjM5MTI3NTUz.DY313g.BiVBrPaWYQtF1z83_ceQ4qSZLZk')
+client.run('Bote seu token aqui')
