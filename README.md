@@ -3,5 +3,5 @@
 [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/vagner_Stark)
 
 Basic bot Examples :
-Dois tipo de bot com @cliente e com @bot(secreto.py faz parte)
+Exemplos de comandos,ultilidades e estruturas para criar seu bot discord
 
