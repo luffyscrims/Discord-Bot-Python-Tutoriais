@@ -34,5 +34,13 @@ nomedasulista= ['id1','id2','id3']
 if  message.content.lower().startswith('/teste'):
         if not message.author.id in nomedasulista:
          return await client.send_message(message.channel, "Sem permissão.voçe nao possui o id")
-        await client.send_message(message.channel, "Olá Mundo,estou vivo.")                                
+        await client.send_message(message.channel, "Olá Mundo,estou vivo.")     
+                                   
+#METODO 5
+#pela permissão de administrador                                   
+  if  message.content.lower().startswith('/teste'):
+           if not message.author.server_permissions.administrator:
+            return await client.send_message(message.channel, 'Sem permissão.voçe nao possui a permissão')     
+           await client.send_message(message.channel, "Olá Mundo,estou vivo.")                             
+                                   
                                    
