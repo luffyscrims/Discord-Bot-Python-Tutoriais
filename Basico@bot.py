@@ -9,6 +9,7 @@ import os
 bot = commands.Bot(command_prefix='?', description='Bem vindos Ao discord.')
 client = discord.Client()
 #parte para esconder seu token quando for mandar para o github
+#lembre de criar um arquivo secreto.py pra colocar seu token
 is_prod = os.environ.get('IS_HEROKU', None)
 if is_prod:
     token = os.environ.get('TOKEN')
