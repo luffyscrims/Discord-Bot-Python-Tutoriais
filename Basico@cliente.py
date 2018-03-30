@@ -16,11 +16,15 @@ async def on_ready():
 #parte dos comandos alguns exemplos com imagens e embedd
 @client.event
 async def on_message(message):
-    if message.content.lower().startswith('!myinfo'):
-        user = message.author
-        embed = discord.Embed(color=COR)
-        embed.set_thumbnail(url=user.avatar_url)
-        await client.send_message(message.channel, embed=embed)
+     if message.content.lower().startswith('!teste'):
+        embedvagner = discord.Embed(
+            title='bla bla',
+            color=0x83f68a,
+            description='bla bla'
+        )
+        embedvagner.add_field(name='ola', value='oi')
+        embedvagner.set_thumbnail(url=message.author.avatar_url)
+        await client.send_message(message.channel, embed=embedvagner)
     
     if message.content.lower().startswith('!ping'):
         userID = message.author.id
