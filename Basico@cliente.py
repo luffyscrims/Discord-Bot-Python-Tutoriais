@@ -1,16 +1,11 @@
 #importaçoes Basicas
 import discord
-from discord.ext import commands
-#outras importaçoes
-import asyncio
-import re
-import os
-import time
-import random
+
+
 
 #Variavél para poder usar @client
 client = discord.Client()
-
+COR = '#4286f4'#
 #montra no terminal se deu certo no loggin do bot,e muda os status do bot no discord
 @client.event
 async def on_ready():
@@ -18,7 +13,7 @@ async def on_ready():
      await client.change_presence(game=discord.Game(name="League of legends", url="https://www.twitch.tv/vagner8k", type=1))
 
 
-#parte dos comandos
+#parte dos comandos alguns exemplos com imagens e embedd
 @client.event
 async def on_message(message):
     if message.content.lower().startswith('!myinfo'):
@@ -38,5 +33,5 @@ async def on_message(message):
         await client.send_message(message.channel, embed=embed)
 
     
-
+#insira o token do bot aqui entre as aspas simples
 client.run('token aki')
