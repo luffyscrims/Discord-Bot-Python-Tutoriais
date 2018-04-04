@@ -10,7 +10,7 @@ start_time = time.time()
 version = "beta"
 #define o prefixo
 client = Bot("/")
-#para criar teu help personalizado
+#para criar um help personalizado
 client.remove_command("help")
 
 
