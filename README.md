@@ -7,7 +7,7 @@
 
 
 # Python Discord Bot #
-Vários exemplos de para seu bot .
+Vários exemplos de para implementar seu bot .
 
 
 
