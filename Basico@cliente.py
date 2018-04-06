@@ -37,5 +37,5 @@ async def on_message(message):
         await client.send_message(message.channel, embed=embed)
 
     
-#insira o token do bot aqui entre as aspas simples
+#insira o token do bot aqui entre as apóstrofos
 client.run('token aki')
