@@ -5,7 +5,6 @@ import discord
 
 #Variavél para poder usar @client
 client = discord.Client()
-COR = '#4286f4'#
 #montra no terminal se deu certo no loggin do bot,e muda os status do bot no discord
 @client.event
 async def on_ready():
@@ -31,7 +30,7 @@ async def on_message(message):
         await client.send_message(message.channel, "<@%s> Pong" % (userID))
 
     if message.content.lower().startswith('?img'):
-        embed = discord.Embed(color=COR)
+        embed = discord.Embed(color=0x83f68a)
         embed.set_image(
             url="https://i.imgur.com/wZvT6CH.jpg")
         await client.send_message(message.channel, embed=embed)
