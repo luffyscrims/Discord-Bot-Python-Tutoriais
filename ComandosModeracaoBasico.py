@@ -11,9 +11,10 @@ async def on_ready():
     print("----Tutorial modecação-----")
     print("Nome do bot{}".format(client.user.name))
     print("Logado em {} servidores".format(len(client.servers)))
-    await client.change_presence(game=discord.Game(name="prefixo !",type= 1))
     print("---Tutorial By vagner----")
     print("---Lado Nego----")
+    await client.change_presence(game=discord.Game(name="prefixo !",type= 1))
+    
 
 
 #Evento de messagem do bot
