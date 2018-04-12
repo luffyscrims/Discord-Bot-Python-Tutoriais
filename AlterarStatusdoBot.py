@@ -16,5 +16,5 @@ exemplo 2
 
 @client.event
 async def on_ready():
-    print("Bot logado")
+     print("Bot logado")
      await client.change_presence(game=discord.Game(name="League of legends", url="https://www.twitch.tv/vagner8k", type=1))
