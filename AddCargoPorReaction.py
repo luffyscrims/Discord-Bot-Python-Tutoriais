@@ -15,7 +15,7 @@ async def on_ready():
     print('BOT ONLINE !')
     print(client.user.name)
     print(client.user.id)
-    print('-----Teste ADD roles-----')
+    print('-----Tutorial ADD roles-----')
 
 @client.event
 async def on_message(message):
@@ -52,7 +52,7 @@ async def on_message(message):
 @client.event
 async def on_reaction_add(reaction, user):
     msg = reaction.message
-
+#Lembrado que tem que te o cargo no seu servidor    
     if reaction.emoji == "🥉" and msg.id == msg_id: #and user == msg_user :
      role = discord.utils.find(lambda r: r.name == "BRONZE", msg.server.roles)
      await client.add_roles(user, role)
