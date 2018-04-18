@@ -1,5 +1,5 @@
 ![Imgur](https://i.imgur.com/Ppj8XVL.png)
- Types:<p>
+ #Types:#<p>
  1 = Jogando<p>
  2 = ouvindo<p>
  3 = assistindo<p>
