@@ -5,8 +5,9 @@
  3 = assistindo<p>
 
 Type 1
-```await client.change_presence(game=discord.Game(name="Vagner Tutorial", type=1))```
-
+.. code:: py
+await client.change_presence(game=discord.Game(name="Vagner Tutorial", type=1))
+.. code:: py
 ![Imgur](https://i.imgur.com/5KJZMdb.jpg)
 
 Type 2
