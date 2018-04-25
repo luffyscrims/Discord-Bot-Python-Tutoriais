@@ -42,6 +42,7 @@ async def on_message(message):
         author= message.author.mention
         user = message.mentions[0]
         """Lembrando que tem que ter o cargo mutado no seu server"""
+        """Lembrando que vc tem que retirar todas permissões do cargo mutado"""
         cargo = discord.utils.get(message.author.server.roles, name='Mutado')
         await client.add_roles(user, cargo)
         await client.send_message(message.channel, 'O membro: {} foi mutado pelo Administrador: {}'.format(user.mention,author))
