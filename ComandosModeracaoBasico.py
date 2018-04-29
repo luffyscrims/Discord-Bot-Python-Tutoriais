@@ -12,7 +12,7 @@ async def on_ready():
     print("Nome do bot{}".format(client.user.name))
     print("Logado em {} servidores".format(len(client.servers)))
     print("---Tutorial By vagner----")
-    print("---Lado Nego----")
+    print("---Lado Negro----")
     await client.change_presence(game=discord.Game(name="prefixo !",type= 1))
     
 
