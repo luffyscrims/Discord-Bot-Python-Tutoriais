@@ -1,9 +1,10 @@
 ![Imgur](https://i.imgur.com/jAJfzJZ.png)
 
 
-[![Twitter URL](https://img.shields.io/badge/servidor-labnegro-blue.svg)](https://discord.gg/TTHN52j)
+[![Twitter URL](https://img.shields.io/badge/servidor-labnegro-blue.svg)](https://discordapp.com/invite/XzHdjaD)
 
 
 
-# Python Discord Bot #
-Vários exemplos para implementar seu bot .
+# LabNegro Tutorial #
+Vários exemplos para implementar seu bot .<br>
+Tanto na versão antiga quanto na rewrite
