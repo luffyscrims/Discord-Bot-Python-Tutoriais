@@ -17,7 +17,7 @@ cmd_open=['cmds.info']
 class main(commands.AutoShardedBot):
     def __init__(self):
         super().__init__(command_prefix=bot_settings['prefixo'],
-                         description="tutorial Cogs Rewritre",
+                         description="tutorial Cogs Rewrite",
                          pm_help=None,
                          #aqui iremos definir a quantidade de shards
                          shard_count=bot_settings['shard_count'])
