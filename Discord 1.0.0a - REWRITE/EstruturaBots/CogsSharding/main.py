@@ -10,7 +10,7 @@ with open('bot_setup.json') as vagner:
 #lista de comandos
 # cmds.info  o cmds que dizer o nome da pastar e o info o nome do arquivo
 #pode fazer tbm cmds.adm.ban  caso queria deixar mais organizado a cada . entra em um diretorio
-cmd_open=['cmds.info']
+cmd_open=['cmds.info','cmds.cooldown']
 
 
 #vamos criar o setup do bot
