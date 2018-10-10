@@ -7,15 +7,14 @@ import asyncio
 
 ''' VARIAVEIS'''
 ownerid = '232309115865661440'
-bot = commands.Bot(command_prefix='p!', description='prefixo')
+bot = commands.Bot(command_prefix='p!', description='pythonzinho')
 bot.remove_command('help')
 is_prod = os.environ.get('IS_HEROKU', None)
 if is_prod:
     token = os.environ.get('TOKEN')
 else:
-    import secreto
 
-    token = secreto.token
+    token = 'token aqui'
 
 user = discord.Member
 ''' EVENTOS DO BOT'''

@@ -36,8 +36,8 @@ if is_prod:
 else:
     import secreto
 
-    token = secreto.token
-    fort_key = secreto.key
+    token = "token aqui"
+    fort_key = "token aqui"
 
 msg_id = None
 g = safygiphy.Giphy()
