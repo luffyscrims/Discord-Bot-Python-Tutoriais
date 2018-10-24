@@ -1,6 +1,11 @@
-#full rework
-#Nova Versão já online
-#Codigo antigo
+# -*- coding: utf-8 -*-
+"""
+Sesshomaru v(1.0.0)
+~~~~~~~~~~~~~~~~~~~
+Full code .
+:copyright: (c) 2019 Vagner
+:license: MIT .
+"""
 
 
 #  ___                                      _
@@ -34,10 +39,9 @@ if is_prod:
     token = os.environ.get('TOKEN')
     fort_key = os.environ.get('FORT_KEY')
 else:
-    import secreto
-
+    
     token = "token aqui"
-    fort_key = "token aqui"
+    fort_key = "fortnite key aqui"
 
 msg_id = None
 g = safygiphy.Giphy()
