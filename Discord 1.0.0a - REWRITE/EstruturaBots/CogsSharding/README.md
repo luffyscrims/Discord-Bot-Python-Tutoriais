@@ -1,7 +1,6 @@
-![Imgur](https://i.imgur.com/jAJfzJZ.png)
+![Imgur](https://i.imgur.com/sGzgQTo.png)
 
 
-[![Twitter URL](https://img.shields.io/badge/servidor-labnegro-blue.svg)](https://discordapp.com/invite/XzHdjaD)
 
 
 
